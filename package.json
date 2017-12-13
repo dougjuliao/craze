@@ -1,0 +1,25 @@
+{
+	"name": "craze",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"export": "pingy export"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"animate.css": "^3.5.2",
+		"bootstrap": "^4.0.0-beta.2",
+		"normalize.css": "^7.0.0"
+	},
+	"devDependencies": {
+		"node-sass": "^4",
+		"babel-core": "^6",
+		"babel-preset-env": "^1",
+		"@pingy/cli": "^0.10.0"
+	}
+}

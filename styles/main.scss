@@ -1,0 +1,20 @@
+#carousel {
+    width: 300px;
+    height: -webkit-fill-available;
+    overflow: hidden; 
+    .ca-images {
+        position: relative; 
+    }
+    .ca-images img {
+        width: 100%;
+        position: absolute;
+        z-index: 5; 
+    }
+    .ca-images img.before {
+        z-index: 9; 
+    }
+    .ca-images img.active {
+        z-index: 10; 
+    }
+
+}
