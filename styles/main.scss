@@ -1,4 +1,19 @@
-.carousel-craze {
+//COLORS
+$background-gray: #eee;
+$pricing-primary: #4692f5;
+$pricing-secundary: #346eeb;
+
+// FULL HEADER
+
+// FEATURES
+
+// ABOUT
+.about{
+    background:$background-gray;
+}
+
+// TESTIMONIALS
+.carousel-craze { // Carousel
     width: 100%;
     text-align:center;
     height: -webkit-fill-available;
@@ -45,5 +60,52 @@
                 border-radius:50%;
             }
         }
+    }
+}
+
+// PRICING TABLES
+.pricing{
+    position:relative;
+    &:before{
+        content:'';
+        width:100%;
+        height:80%;
+        position:absolute;
+        top:0;
+        left:0;
+        background: $background-gray;
+        z-index:-1;
+    }
+}
+.pricing-table{
+    .pricing-table-item{
+        margin: 0 -13px;
+        cursor:pointer;
+        .pr-header{
+            color:#fff;
+            background:$pricing-primary;
+            padding:3px 5px;
+        }
+        .pr-content{
+            background:#fff;
+            color:#4e4e4e;
+            padding:5px 30px;
+            .pr-price{}
+            .pr-feature{
+                border-top:1px solid #b9b8b8;
+            }
+        }
+        .pr-footer{
+            background:$pricing-primary;
+            padding:15px 30px;
+            .pr-purchase{
+                background:$pricing-secundary;
+                padding:5px;
+                color:#fff;
+            }
+        }
+    }
+    .pr-featured{
+        transform: scaleY(1.2);
     }
 }
