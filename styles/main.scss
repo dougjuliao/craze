@@ -302,6 +302,7 @@ html {
         border-radius:50%;
         cursor:pointer;
         transition:0.3s;
+        margin-left: 8px;
         &:hover{
             background:$color-primary;
         }
