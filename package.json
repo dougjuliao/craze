@@ -17,9 +17,9 @@
 		"normalize.css": "^7.0.0"
 	},
 	"devDependencies": {
-		"node-sass": "^4",
+		"@pingy/cli": "^0.10.0",
 		"babel-core": "^6",
 		"babel-preset-env": "^1",
-		"@pingy/cli": "^0.10.0"
+		"node-sass": "^4.7.2"
 	}
 }
