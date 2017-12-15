@@ -17,7 +17,7 @@ html {
 
 // FULL HEADER
 .header{
-    background-image:url('../images/pattern1.jpg');
+    background-image:url('../images/pattern1.png');
     overflow: hidden;
     position: relative;
     max-height:1300px;
@@ -225,60 +225,66 @@ html {
     }
 }
 .pricing-table{
+    margin-left: 113px;
+    @media screen and (max-width: $break-medium){
+        margin: 0;
+    }
     .pricing-table-item{
-        margin: 0 -13px;
-        cursor:pointer;
+        margin: 2px -13px;
         @media screen and (max-width: $break-medium){
-            margin: 0;
+            margin:2px 0;
         }
         .pr-header{
             color:#fff;
             background:$color-primary;
             padding:3px 5px;
+            h2{
+                font-size: 1.8rem;
+            }
         }
         .pr-content{
             background:#fff;
             color:#4e4e4e;
-            padding:5px 30px;
+            padding:5px 23px;
             .pr-price{ 
-                font-size:2rem; 
+                font-size:2.5rem; 
                 font-weight: 700;
                 span{
                     font-size: 1rem;
                     position: relative;
-                    top: -10px;
+                    top: -14px;
+                    left: -8px;
                 }
             }
             .pr-feature{
                 border-top:1px solid #b9b8b8;
+                padding: 6px 0;
             }
         }
         .pr-footer{
             background:$color-primary;
-            padding:15px 30px;
+            padding:17px 20%;
             .pr-purchase{
                 background:$color-secundary;
                 padding:5px;
                 color:#fff;
+                font-weight: 700;
+                text-transform: uppercase;
+                transition:0.3s;
+                cursor:pointer;
+                &:hover{
+                    background:#145886;
+                }
             }
         }
         
     }
     .pr-featured{
-        transform: scaleY(1.2);
         position:relative;
-        &:before{
-            content:'';
-            position:absolute;
-            top: 5px;
-            left: 15px;
-            width:90%;
-            height:90%;
-            background:#fff;
+        top: -19px;
+        @media screen and (max-width: $break-large){
+            top: 0;
         }
-        .pr-header{ transform: scaleY(0.8); }
-        .pr-content{ transform: scaleY(0.8); }
-        .pr-footer{ transform: scaleY(0.8); }
     }
 }
 
@@ -305,4 +311,26 @@ html {
             fill:#fff;
         }
     }
+}
+
+//FOOTER
+.footer{
+    background: $background-gray;
+    margin-top:10px;
+    padding: 50px;
+    .footer-links{
+        width: 490px;
+        margin:0 auto;
+        @media screen and (max-width: $break-medium){
+            width:100%;
+        }
+        .footer-link{
+            display:inline-block;
+            margin-left: 24px;
+            a{
+                color:$text-gray;
+            }
+        }
+    }
+    
 }
