@@ -82,15 +82,17 @@ class Carousel {
 
         for (let i = 0, len = arrSlides.length; i < len; i++) {
             txtHTML += `<div class="ca-slides-item animated ${(first ? 'active' : '')}">
+                            <p>"${arrSlides[i].desc}"</p>
                             <h2>${arrSlides[i].title}</h2>
-                            <p>${arrSlides[i].desc}</p>
                         </div>`;
             navCircles += `<div class="ca-circles-item ca-slides-${i} ${(first ? 'active' : '')}" data-slide="${i}"></div>`;
 
             first = false;
         };
 
-        let containerHTML = `<div class="ca-slides">${txtHTML}</div>`;
+        let containerHTML = `<div class="container">
+                                <div class="ca-slides">${txtHTML}</div>
+                            </div>`;
         let containerCircles = `<div class="ca-circles">${navCircles}</div>`;
         let navHTML = this.nav ? `<div class="ca-nav">
                             <a class="ca-prev" href="#"><</a>

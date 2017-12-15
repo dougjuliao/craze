@@ -9,13 +9,36 @@
         <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
         <link rel="stylesheet" href="node_modules/animate.css/animate.css">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <div class="container-fluid px-0 mx-0">
             <!-- nav ? -->
             <!-- CAROUSEL -->
-            <div id="carousel"></div>
+            <header id="header" class="header">
+                <div class="container">
+                    <div class="header-bottom-fix row">
+                        <div class="col">
+                            <div class="header-logo">
+                                <img src="images/logo-craze.png" alt="Logo Craze">
+                                <p class="header-great-txt">
+                                    A great new free psd to showcase <br>
+                                    your new app.
+                                </p>
+                                <div class="header-platforms">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="header-hand">
+                                <img class="img-fluid" src="images/hand.png" alt="Hand and iphone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
             
             <!-- FEATURES -->
             <section id="features" class="features text-center pt-5 pb-5">
@@ -24,34 +47,58 @@
                     <p>Lorem ipsum dolor sit amet, pro aeterno adipisci ex, pro no iriure accusam. Eros admodum intellegat ex mea, mei wisi nullam ne, qui cu aliquid nominavi. Est habemus maiestatis ut. Vim quod elitr interesset ea.</p>
                     <div class="features-list pt-5 center row">
                         <div class="features-list-item col-lg-4 col-md-6">
-                            <div class="fake-icon"></div>
-                            <h2 class="features-list-title">Flat Design</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            <div class="feature-border f-border-right">
+                                <div class="features-list-icon">
+                                    <img src="images/1.png" alt="Feature 1">
+                                </div>
+                                <h2 class="features-list-title">Flat Design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            </div>
                         </div>
                         <div class="features-list-item col-lg-4 col-md-6">
-                            <div class="fake-icon"></div>
-                            <h2 class="features-list-title">Marketable</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            <div class="feature-border f-border-right f-b-medium-r-none">
+                                <div class="features-list-icon">
+                                    <img src="images/2.png" alt="Feature 2">
+                                </div>
+                                <h2 class="features-list-title">Marketable</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            </div>
                         </div>
                         <div class="features-list-item col-lg-4 col-md-6">
-                            <div class="fake-icon"></div>
-                            <h2 class="features-list-title">Edit Photos</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            <div class="feature-border f-b-top f-b-medium-r">
+                                <div class="features-list-icon">
+                                    <img src="images/3.png" alt="Feature 3">
+                                </div>
+                                <h2 class="features-list-title">Edit Photos</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            </div>
                         </div>
                         <div class="features-list-item col-lg-4 col-md-6">
-                            <div class="fake-icon"></div>
-                            <h2 class="features-list-title">Edit Colors</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            <div class="feature-border f-border-top f-border-right f-b-medium-r-none">
+                                <div class="features-list-icon">
+                                    <img src="images/4.png" alt="Feature 4">
+                                </div>
+                                <h2 class="features-list-title">Edit Colors</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            </div>
                         </div>
                         <div class="features-list-item col-lg-4 col-md-6">
-                            <div class="fake-icon"></div>
-                            <h2 class="features-list-title">User Friendly</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            <div class="feature-border f-border-top f-border-right">
+                                <div class="features-list-icon">
+                                    <img src="images/5.png" alt="Feature 5">
+                                </div>
+                                <h2 class="features-list-title">User Friendly</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            </div>
                         </div>
                         <div class="features-list-item col-lg-4 col-md-6">
-                            <div class="fake-icon"></div>
-                            <h2 class="features-list-title">100% Editable</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            <div class="feature-border f-border-top">
+                                <div class="features-list-icon">
+                                    <img src="images/6.png" alt="Feature 6">
+                                </div>
+                                <h2 class="features-list-title">100% Editable</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -60,19 +107,22 @@
             <!-- ABOUT -->
             <section id="about" class="about pt-5 pb-5">
                 <div class="container">
-                    <div class="about-description col-md-6 text-left">
-                        <h2>Whats Craze all About?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. 
-                        </p>
-                        <p>Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
-                        <ul class="about-list">
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipiscing</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <p>VIDEO</p>
-                    </div>
+                    <div class="row">
+                        <div class="about-description col-md-6 text-left">
+                            <h2>Whats Craze all About?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. 
+                            </p>
+                            <p>Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
+                            <ul class="about-list">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipiscing</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- VIDEO -->
+                            <iframe class="iframe-video" src="https://player.vimeo.com/video/246764182?color=5cd7d4&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        </div>
                 </div>
             </section>
 
@@ -91,7 +141,7 @@
                                 <h2>Basic</h2>
                             </div>
                             <div class="pr-content">
-                                <div class="pr-price">$19 99</div>
+                                <div class="pr-price">$19 <span>99</span></div>
                                 <div class="pr-feature">Feature 1</div>
                                 <div class="pr-feature">Feature 2</div>
                                 <div class="pr-feature">Feature 3</div>
@@ -107,7 +157,7 @@
                                 <h2>Standard</h2>
                             </div>
                             <div class="pr-content">
-                                <div class="pr-price">$19 99</div>
+                                <div class="pr-price">$19 <span>99</span></div>
                                 <div class="pr-feature">Feature 1</div>
                                 <div class="pr-feature">Feature 2</div>
                                 <div class="pr-feature">Feature 3</div>
@@ -123,7 +173,7 @@
                                 <h2>Deluxe</h2>
                             </div>
                             <div class="pr-content">
-                                <div class="pr-price">$19 99</div>
+                                <div class="pr-price">$19 <span>99</span></div>
                                 <div class="pr-feature">Feature 1</div>
                                 <div class="pr-feature">Feature 2</div>
                                 <div class="pr-feature">Feature 3</div>
@@ -139,7 +189,7 @@
                                 <h2>Unlimited</h2>
                             </div>
                             <div class="pr-content">
-                                <div class="pr-price">$19 99</div>
+                                <div class="pr-price">$19 <span>99</span></div>
                                 <div class="pr-feature">Feature 1</div>
                                 <div class="pr-feature">Feature 2</div>
                                 <div class="pr-feature">Feature 3</div>
