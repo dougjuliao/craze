@@ -20,6 +20,8 @@ html {
     background-image:url('../images/pattern1.jpg');
     overflow: hidden;
     position: relative;
+    max-height:1000px;
+    min-height:400px;
     .header-bottom-fix {
         position: absolute;
         bottom: 0;
@@ -119,7 +121,7 @@ html {
 }
 .iframe-video{ 
     border-radius: 10px; 
-    @media screen and (max-width: $break-medium){
+    @media screen and (max-width: $break-exlarge){
         width:100%;
     }
 }
