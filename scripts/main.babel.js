@@ -1,5 +1,5 @@
 const getElementHeight = (container) => {
-    return (container.innerHeight - 18)+'px';
+    return container.innerHeight+'px';
 };
 const setHeaderHeight = (header) => {
     header.style.height = getElementHeight(window);

@@ -20,7 +20,7 @@ html {
     background-image:url('../images/pattern1.jpg');
     overflow: hidden;
     position: relative;
-    max-height:1000px;
+    max-height:1300px;
     min-height:400px;
     .header-bottom-fix {
         position: absolute;
@@ -33,6 +33,29 @@ html {
                 font-size: 1.9rem;
                 color: #eee;
                 text-shadow: 2px 1px 2px #727070;
+            }
+        }
+        .header-platforms{
+            .header-plat-icons{
+                width:50px;
+                height:50px;
+                padding:9px 10px;
+                background:#000;
+                border-radius:50%;
+                display:inline-block;
+                margin-left:5px;
+                opacity:0.6;
+                cursor:pointer;
+                transition:0.3s;
+                img{
+                    width:25px;
+                }
+                .plat-icons-1{ margin:0 1px; }
+                .plat-icons-2{ margin:1px 3px; }
+                .plat-icons-3{ margin:3px 1px; }
+                &:hover{
+                    opacity:1;
+                }
             }
         }
         .header-logo{ padding: 25px; }
