@@ -281,3 +281,28 @@ html {
         .pr-footer{ transform: scaleY(0.8); }
     }
 }
+
+//GET IN TOUCH
+.getintouch{
+    .getintouch-social{ 
+        width: 80%;
+        margin:0 auto;
+        text-align:center;
+    }
+    .social-icon{
+        display:inline-block;
+        background:#ccc;
+        padding:8px 10px 6px 11px;
+        border-radius:50%;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background:$color-primary;
+        }
+        svg{
+            width:20px;
+            height:20px;
+            fill:#fff;
+        }
+    }
+}
