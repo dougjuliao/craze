@@ -1,0 +1,225 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "31ce9b2662bef085c098bf9b9e7054234dd03842"
+      }
+    ],
+    "outputSha": "3564cd501623d7afcaf3fe82db95c0da7a81879e",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/animate.css",
+        "sha": "5bac0162dbfcfd0c701b8d0848411a288c27a2c2"
+      }
+    ],
+    "outputSha": "e075a51faa6eadfec0500acc3545caa4e3aab759",
+    "input": "styles/animate.css",
+    "output": [
+      "styles/animate.css.map",
+      "styles/animate.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.7.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "fda536e62a39c23164d14025f9e8dda7c4f0e7c4"
+      }
+    ],
+    "outputSha": "b06a2f74ca20898f1a55277dbe8a62f7139b5420",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/normalize.css",
+        "sha": "ebe0759bf259b6caeadee6137973481046ac5636"
+      }
+    ],
+    "outputSha": "fd06d6d3080e739693df2747395a699a717bd28a",
+    "input": "styles/normalize.css",
+    "output": [
+      "styles/normalize.css.map",
+      "styles/normalize.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/index.html",
+        "sha": "3564cd501623d7afcaf3fe82db95c0da7a81879e"
+      }
+    ],
+    "outputSha": "3564cd501623d7afcaf3fe82db95c0da7a81879e",
+    "input": "dist/index.html",
+    "output": [
+      "dist/index.html"
+    ]
+  },
+  {
+    "type": "babel-core@6.26.0::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/Carousel.babel.js",
+        "sha": "dbbd2ccfd706f06b278855f064efb0181166f31c"
+      }
+    ],
+    "outputSha": "63c0b6797f00ed57bc5bb5e73ab16707c4179ed8",
+    "input": "scripts/Carousel.babel.js",
+    "output": [
+      "scripts/Carousel.js.map",
+      "scripts/Carousel.js"
+    ]
+  },
+  {
+    "type": "babel-core@6.26.0::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.babel.js",
+        "sha": "2a590898bde354eb9c7691a7ae96edaebcfb8920"
+      }
+    ],
+    "outputSha": "2f5aed5c6335048431e3db3e80b2064107eda818",
+    "input": "scripts/main.babel.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "babel-core@6.26.0::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/scripts/Carousel.babel.js",
+        "sha": "dbbd2ccfd706f06b278855f064efb0181166f31c"
+      }
+    ],
+    "outputSha": "63c0b6797f00ed57bc5bb5e73ab16707c4179ed8",
+    "input": "dist/scripts/Carousel.babel.js",
+    "output": [
+      "dist/scripts/Carousel.js.map",
+      "dist/scripts/Carousel.js"
+    ]
+  },
+  {
+    "type": "babel-core@6.26.0::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/scripts/main.babel.js",
+        "sha": "2a590898bde354eb9c7691a7ae96edaebcfb8920"
+      }
+    ],
+    "outputSha": "2f5aed5c6335048431e3db3e80b2064107eda818",
+    "input": "dist/scripts/main.babel.js",
+    "output": [
+      "dist/scripts/main.js.map",
+      "dist/scripts/main.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/scripts/Carousel.js",
+        "sha": "63c0b6797f00ed57bc5bb5e73ab16707c4179ed8"
+      }
+    ],
+    "outputSha": "63c0b6797f00ed57bc5bb5e73ab16707c4179ed8",
+    "input": "dist/scripts/Carousel.js",
+    "output": [
+      "dist/scripts/Carousel.js.map",
+      "dist/scripts/Carousel.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/scripts/main.js",
+        "sha": "2f5aed5c6335048431e3db3e80b2064107eda818"
+      }
+    ],
+    "outputSha": "2f5aed5c6335048431e3db3e80b2064107eda818",
+    "input": "dist/scripts/main.js",
+    "output": [
+      "dist/scripts/main.js.map",
+      "dist/scripts/main.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/styles/animate.css",
+        "sha": "e075a51faa6eadfec0500acc3545caa4e3aab759"
+      }
+    ],
+    "outputSha": "4b4f4938441b6c4852f16e6d4752a6fd3e987522",
+    "input": "dist/styles/animate.css",
+    "output": [
+      "dist/styles/animate.css.map",
+      "dist/styles/animate.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/styles/main.css",
+        "sha": "b06a2f74ca20898f1a55277dbe8a62f7139b5420"
+      }
+    ],
+    "outputSha": "b06a2f74ca20898f1a55277dbe8a62f7139b5420",
+    "input": "dist/styles/main.css",
+    "output": [
+      "dist/styles/main.css.map",
+      "dist/styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.7.2::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/styles/main.scss",
+        "sha": "fda536e62a39c23164d14025f9e8dda7c4f0e7c4"
+      }
+    ],
+    "outputSha": "b06a2f74ca20898f1a55277dbe8a62f7139b5420",
+    "input": "dist/styles/main.scss",
+    "output": [
+      "dist/styles/main.css.map",
+      "dist/styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/styles/normalize.css",
+        "sha": "fd06d6d3080e739693df2747395a699a717bd28a"
+      }
+    ],
+    "outputSha": "80aaae3dd0b7d73fa35f995ec83f9465c53c6b6f",
+    "input": "dist/styles/normalize.css",
+    "output": [
+      "dist/styles/normalize.css.map",
+      "dist/styles/normalize.css"
+    ]
+  }
+]
